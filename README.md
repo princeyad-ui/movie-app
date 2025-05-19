@@ -13,6 +13,7 @@ This is the frontend of a Movie App built using **React** and **Vite**. The app 
 
 ## 📁 Project Structure
 
+```
 movie-app-frontend/
 ├── public/
 ├── src/
@@ -25,7 +26,7 @@ movie-app-frontend/
 ├── index.html
 ├── package.json
 ├── vite.config.js
-
+```
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the Repository
