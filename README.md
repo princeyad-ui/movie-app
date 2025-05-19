@@ -1,12 +1,58 @@
-# React + Vite
+# 🎬 Movie App Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of a Movie App built using **React** and **Vite**. The app allows users to explore, search, and view details about movies in a sleek, fast, and responsive interface.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ React
+- ⚡ Vite
+- 🧠 Context API / Redux (if used)
+- 🎨 Tailwind CSS / CSS Modules / SCSS (if applicable)
+- 🔗 Axios / Fetch API
+- 📦 npm / yarn
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+movie-app-frontend/
+├── public/
+├── src/
+│ ├── assets/
+│ ├── components/
+│ ├── pages/
+│ ├── services/
+│ ├── App.jsx
+│ ├── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/movie-app-frontend.git
+cd movie-app-frontend
+```
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+```bash
+npm run dev
+```
+The app should now be running at http://localhost:5173.
+
+#### Features
+🔍 Movie search functionality
+
+📄 Detailed movie information
+
+🎞️ Posters, genres, ratings, and more
+
+📱 Fully responsive design
+
+### License
+- This project is licensed under the MIT License.
+
